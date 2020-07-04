@@ -1,14 +1,14 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter, Switch, Route,Link} from 'react-router-dom'
+import { Switch, Route,Link,HashRouter} from 'react-router-dom'
 import Home from './component/Home'
 import About from './component/About'
 import Profile from './component/Profile'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       {/* <Switch>
         <Route path= "/" exact component={Home} />
         <Route path="/about" component={About} />
@@ -44,7 +44,7 @@ const App = () => {
         </Switch>
       </div>
         
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
