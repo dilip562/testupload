@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link,useParams,useRouteMatch,Switch,Route} from 'react-router-dom'
+import {Link,useRouteMatch} from 'react-router-dom'
 
 const Home = () => {
    const {url,path}= useRouteMatch()
@@ -16,10 +16,5 @@ const Home = () => {
     )
 }
 
-const home1 = () => {
-    return (
-        <h1>Home 1</h1>
-    )
-}
 
 export default Home;

@@ -40,18 +40,4 @@ const about2 = () => {
     )
 }
 
-const about3 = () => {
-    return(
-        <div>
-            <h1>About3</h1>
-        </div>
-    )
-}
-const about4 = () => {
-    return(
-        <div>
-            <h1>About4</h1>
-        </div>
-    )
-}
 export default About;
